@@ -6,11 +6,12 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivanmoreau/bird-promise.ts.git"
+    "url": "git+https://github.com/ivanmoreau/bird-promise.ts.git"
   },
   "author": "Iván Molina Rebolledo <ivan@ivmoreau.com>",
   "license": "MPL-2.0",

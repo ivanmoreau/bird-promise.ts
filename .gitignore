@@ -25,6 +25,3 @@ dist-ssr
 
 # Nix
 .direnv/*
-
-# TypeScript
-lib/*
