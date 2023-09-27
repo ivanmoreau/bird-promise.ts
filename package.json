@@ -1,5 +1,5 @@
 {
-  "name": "future",
+  "name": "bird-future",
   "version": "0.1.0",
   "description": "A Twitter-like promise for Typescript.",
   "main": "index.js",
